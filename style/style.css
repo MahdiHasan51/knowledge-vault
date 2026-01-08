@@ -22,6 +22,9 @@ nav .logo{
     font-size: 16px;
     font-weight: 600;
 }
+.btn:hover{
+    background-color: black;
+}
 
 /* main style  */
 nav{
@@ -53,4 +56,90 @@ nav .menu a{
 .nav-button{
     display: flex;
     justify-content: flex-end;
+}
+#banner{
+    background: linear-gradient(rgba(0, 0, 0, 0.253), rgba(0, 0, 0, 0.248)), url("../assets/hero-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    max-width: 1600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+#banner .banner-content{
+    max-width: 1360px;
+    padding: 115px 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#banner .banner-button-top{
+    background-color: #FFFFFF;
+    color: #469165;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 16px;
+    text-align: center;
+    align-items: center;
+    border-radius: 50px;
+    padding: 8px 20px;
+    width: 229px;
+}
+.banner-heading h1{
+    font-size: 72px;
+    font-weight: bold;
+    list-style: 84px;
+    margin-bottom: 16px;
+}
+.banner-heading .banner-heading-top{
+    color: #FFFFFF;
+}
+.banner-heading .banner-heading-bottom{
+    color: #30B868;
+}
+.banner-heading p{
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 32px;
+    margin: 0 auto 40px auto;
+    width: 680px;
+}
+#banner .banner-button-down{
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    gap: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-button-down .btn{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 16px 16px;
+}
+.banner-button-down .btn:hover{
+    background-color: black;
+
+}
+
+.banner-button-down .button2{
+    background: transparent;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 16px 16px;
+    border: 1px solid white;
+    color: #FFFFFF;
+
+}
+.banner-button-down .button2:hover{
+    background-color: black;
 }
