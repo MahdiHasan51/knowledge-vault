@@ -340,6 +340,7 @@ nav .menu a{
     display: flex;
     gap: 16px;
     justify-content: flex-end;
+    margin-right: 120px;
 }
 .footer-top .social-icons a{
     background-color: #FFFFFF;
