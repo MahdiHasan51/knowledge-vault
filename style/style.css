@@ -214,7 +214,8 @@ nav .menu a{
     padding: 120px;
     max-width: 1360px;
     vertical-align: middle;
-    margin: 0 auto;
+    margin: 120px 120px 120px 120px;
+
     gap: 60px;
 
 }
@@ -259,5 +260,44 @@ nav .menu a{
     margin-bottom: 16px;
 
 }
+#challenge{
+    max-width: 1600px;
+}
+#challenge .challenge-container{
+    max-width: 1360px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 2px 120px 120px 120px;
+    /* margin: 0 auto; */
+    background-color: #F7F6F2;
 
+}
+.challenge-container .challenge-heading h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: #001931;
+    padding-top: 80px;
+    margin-bottom: 16px;
 
+}
+.challenge-container .challenge-heading p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #627382;
+    margin-bottom: 24px;
+}
+.challenge-container .challenge-button{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+.challenge-container .challenge-caption p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 80px;
+}
