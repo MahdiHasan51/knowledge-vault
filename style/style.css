@@ -25,6 +25,53 @@ nav .logo{
 .btn:hover{
     background-color: black;
 }
+.section-heading h2{
+    color: #001931;
+    font-size: 48px;
+    font-weight: bold;
+    padding-top: 72px;
+    padding-bottom: 16px;
+}
+.section-heading p{
+    color: #627382;
+    font-size: 16px;
+    line-height: 20px;
+    padding-bottom: 44px;
+}
+.note-card{
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+    margin-top: 44px;
+}
+.note-card .card-info h3{
+    font-weight: 600;
+    font-size: 24px;
+    color: #001931;
+    padding-bottom: 16px;
+}
+.note-card .card-info p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    padding-bottom: 44px;
+}
+.card-info .icon{
+    background-color: #F95555;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+    margin-top: 59px;
+
+}
+.card-info .icon img{
+    width: 32px;
+    height: 32px;
+}
 
 /* main style  */
 nav{
@@ -142,4 +189,18 @@ nav .menu a{
 }
 .banner-button-down .button2:hover{
     background-color: black;
+}
+#note .note-container{
+    width: 90%;
+    max-width: 1360px;
+    margin: 0 auto;
+    text-align: center;
+}
+.note-card .card-info{
+    max-width: 322px;
+    padding: 24px;
+    box-shadow: 0 6px 50px 0 #00000031;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
