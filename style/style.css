@@ -21,6 +21,10 @@ nav .logo{
     border-radius: 5px;
     font-size: 16px;
     font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
 }
 .btn:hover{
     background-color: black;
@@ -134,7 +138,7 @@ nav .menu a{
     align-items: center;
     border-radius: 50px;
     padding: 8px 20px;
-    width: 229px;
+    width: 240px;
 }
 .banner-heading h1{
     font-size: 72px;
@@ -300,4 +304,71 @@ nav .menu a{
     line-height: 20px;
     color: #627382;
     margin-bottom: 80px;
+}
+#footer{
+    max-width: 1600px;
+    background-color: #001931;
+    padding: 60px 0 40px 0;
+}
+#footer .footer-container{
+    width: 90%;
+    max-width: 1360px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 84px;
+}
+.footer-top .footer-logo img{
+    height: 60px;
+    width: 139px;
+
+}
+.footer-top .social p{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: 16px;
+}
+.footer-top .social-icons{
+    display: flex;
+    gap: 16px;
+    justify-content: flex-end;
+}
+.footer-top .social-icons a{
+    background-color: #FFFFFF;
+    color: #001931;
+    border-radius: 50%;
+    display: flex;
+    width: 20px;
+    height: 20px;
+    gap: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+#footer .footer-divider{
+    border: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    margin: 0 0 30px 0;
+
+}
+.footer-bottom{
+    text-align: center;
+}
+
+.footer-bottom .metadata{
+    color: #FAFAFA;
+    font-size: 16px;
+    line-height: 24px;
+
+    
 }
